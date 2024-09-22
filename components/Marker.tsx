@@ -1,4 +1,4 @@
-export const Marker = ({ fill }: {fill: string}) => {
+export const Marker = ({ fill }: {fill?: string}) => {
   return (
     <svg
       width="8"

@@ -1,3 +1,4 @@
+import Download from "@/components/Download";
 import Faq from "@/components/Faq";
 import Features from "@/components/Features";
 import Header from "@/components/Header";
@@ -14,6 +15,7 @@ export default function Home() {
       <Pricing />
       <Faq />
       <Testimonials />
+      <Download />
     </main>
   );
 }
