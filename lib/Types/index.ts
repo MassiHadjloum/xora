@@ -15,11 +15,16 @@ export type TFeature = {
 export type TPlan = {
   id: string;
   title: string;
-  priceMonthly: number,
-  priceYearly: number,
+  priceMonthly: number;
+  priceYearly: number;
   caption: string;
-  features: string[],
+  features: string[];
   icon: string;
   logo: string;
+};
 
-}
+export type TFaqItem = {
+  id: string;
+  question: string;
+  answer: string;
+};
