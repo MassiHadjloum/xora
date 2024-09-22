@@ -11,3 +11,15 @@ export type TFeature = {
   text: string;
   button: TButton;
 };
+
+export type TPlan = {
+  id: string;
+  title: string;
+  priceMonthly: number,
+  priceYearly: number,
+  caption: string;
+  features: string[],
+  icon: string;
+  logo: string;
+
+}
