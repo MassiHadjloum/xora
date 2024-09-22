@@ -28,3 +28,11 @@ export type TFaqItem = {
   question: string;
   answer: string;
 };
+
+export type Testimonial = {
+  id: string;
+  name: string;
+  role: string;
+  avatarUrl: string;
+  comment: string;
+};
